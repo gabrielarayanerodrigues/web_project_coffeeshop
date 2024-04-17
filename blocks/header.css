@@ -1,0 +1,104 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  position: relative;
+  box-sizing: border-box;
+  background-image: url("../images/background_header.svg");
+  background-size: cover;
+}
+.header__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*  na biblioteca Triple Peaks*/
+.header__title {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 72px;
+  letter-spacing: -1px;
+  max-width: 709px;
+  padding-top: 183px;
+  padding-left: 80px;
+}
+
+/*  café especial*/
+.header__span-acent {
+  font-family: "Noto Serif", "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 72px;
+  color: #2f80ed;
+  max-width: 709px;
+  display: block;
+}
+
+/* Esta é a zona de estudo ...*/
+.header__description {
+  font-family: "Noto Serif", "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 638px;
+  margin-left: 80px;
+  margin-top: 28px;
+}
+/* Imagem da cafeteria */
+.header__image {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 568px;
+  height: 646px;
+  padding-right: 5px;
+  padding-left: 800px;
+  position: absolute;
+  margin-top: 124px;
+}
+/* rodapé */
+.header__footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  box-sizing: border-box;
+  margin-top: auto;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+  padding-right: 80px;
+  padding-left: 80px;
+  padding-bottom: 40px;
+}
+
+/* coluna de endereço*/
+.header__paragraph {
+  justify-content: flex-end;
+  margin: 0;
+  position: relative;
+}
+/* Imagem da cafeteria */
+.header__image {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 568px;
+  height: 646px;
+  padding-right: 5px;
+  padding-left: 800px;
+  position: absolute;
+  margin-top: 124px;
+}

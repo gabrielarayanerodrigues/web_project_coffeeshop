@@ -1,0 +1,35 @@
+/*   INICIO CSS NAV */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1300px;
+  height: 80px;
+}
+
+.nav__logo {
+  display: flex;
+  flex-direction: row;
+  height: 39px;
+  width: 105px;
+  margin-left: 30px;
+  margin-top: 30px;
+  position: relative;
+}
+
+.nav__links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  column-gap: 20px;
+  list-style-type: none;
+  padding-top: 30px;
+  padding-right: 80px;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+}
+/*   FINAL CSS NAV */
