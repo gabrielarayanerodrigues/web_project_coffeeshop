@@ -70,4 +70,4 @@ Mídia social
 Facebook
 Instagram
 
-© 2024 Seu nome
+© 2024 Gabriela ROdrigues
