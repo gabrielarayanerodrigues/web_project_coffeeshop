@@ -10,6 +10,7 @@
   background-image: url("../images/background_header.svg");
   background-size: cover;
 }
+
 .header__content {
   display: flex;
   justify-content: space-between;
@@ -29,6 +30,7 @@
 }
 
 /*  café especial*/
+
 .header__span-acent {
   font-family: "Noto Serif", "Times New Roman", Times, serif;
   font-style: italic;
@@ -51,19 +53,17 @@
   margin-left: 80px;
   margin-top: 28px;
 }
+
 /* Imagem da cafeteria */
 .header__image {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
   width: 568px;
   height: 646px;
+  right: 0;
   padding-right: 5px;
-  padding-left: 800px;
   position: absolute;
-  margin-top: 124px;
+  margin-top: 94px;
 }
+
 /* rodapé */
 .header__footer {
   width: 100%;
@@ -88,17 +88,4 @@
   justify-content: flex-end;
   margin: 0;
   position: relative;
-}
-/* Imagem da cafeteria */
-.header__image {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-  width: 568px;
-  height: 646px;
-  padding-right: 5px;
-  padding-left: 800px;
-  position: absolute;
-  margin-top: 124px;
 }
